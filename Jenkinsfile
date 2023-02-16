@@ -17,7 +17,5 @@ pipeline {
             }
         }
     }
-    post {
-        failure {echo 'Pipeline failed'}
-    }
+    post {failure {echo 'Pipeline failed'}}
 }
